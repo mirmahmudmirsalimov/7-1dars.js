@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-secondary">
+    <div class="container text-center">
+        <h1 id="h1" style="color: white; margin: 50px; font-weight: bold;">Tempertature converter</h1>
+        <form class="form__hero d-flex align-items-center justify-content-center" action="https://echo.htmlacademy.ru">
+            <div class="w-75">
+                <div class="row">
+                    <div class="col-6 col-lg-6 col-md-6 col-sm-12">
+                        <label class="alert alert-primary text-nowrap h5 mr-md-3 w-100">Temperature in
+                            celsius</label>
+                        <label class="alert alert-primary text-nowrap h5 mr-md-3 w-100">Temperature
+                            in
+                            fahrenheit</label>
+                    </div>
+                    <div class="col-6 col-lg-6 col-md-6 col-sm-12">
+                        <input class="hero__inp form-control temperatur__input h-auto w-100 px-3 py-3 mb-3" type="text"
+                            step="any" id="temp_input" name=" celsius" placeholder="°C" required>
+                        <input class="hero__output form-control h-auto w-100 temperatur__input px-3 py-3 mb-3"
+                            type="text" id="temp_input" name="fahrenheit" placeholder="32 °F" disabled>
+                    </div>
+                </div>
+                <button
+                    class="formi-submit btn btn-primary form-control d-flex text-center align-items-center justify-content-center mb-3"
+                    type="submit">
+                    <div class="mx-2">
+                        <span class="material-symbols-outlined">
+                            restart_alt
+                        </span>
+                    </div>
+                    <h2>Convert</h2>
+                </button>
+            </div>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
